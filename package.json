@@ -1,0 +1,32 @@
+{
+  "name": "zenking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin":{
+      "zenking":"./bin/zenking"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "argv": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenking/zenking.git"
+  },
+  "keywords": [
+    "zenking"
+  ],
+  "author": "zenking<zhangling@whatsmax.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenking/zenking/issues"
+  },
+  "homepage": "https://github.com/zenking/zenking#readme"
+}
