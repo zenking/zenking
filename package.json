@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin":{
-      "zenking":"./bin/zenking"
+      "zenking":"bin/zenking"
   },
   "directories": {
     "doc": "doc"
