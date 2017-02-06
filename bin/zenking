@@ -1,4 +1,13 @@
- #! /usr/bin/env node
+#!/usr/local/bin/node
 var argv = require('argv');
 var echo = require('../lib/index');
-   console.log(echo(argv.join(' ')));
+var args = argv.option({
+        name: 'option',
+        short: 'o',
+        type: 'string',
+        description: 'Defines an option for your script',
+        example: "'script --opiton=value' or 'script -o value'"
+
+}).run();
+
+console.log(echo(args.options);
