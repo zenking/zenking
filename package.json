@@ -1,10 +1,10 @@
 {
   "name": "zenking",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin":{
-      "zenking":"bin/zenking"
+      "zenking":"./bin/zenking"
   },
   "directories": {
     "doc": "doc"
