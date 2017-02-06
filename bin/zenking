@@ -2,11 +2,11 @@
 var argv = require('argv');
 var echo = require('../lib/index');
 var args = argv.option({
-        name: 'option',
-        short: 'o',
+        name: 'URL',
+        short: 'u',
         type: 'string',
-        description: 'Defines an option for your script',
-        example: "'script --opiton=value' or 'script -o value'"
+        description: '确定需要设置的URL',
+        example: "'script --URL=value' or 'script -u value'"
 
 }).run();
 
