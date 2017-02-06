@@ -10,4 +10,4 @@ var args = argv.option({
 
 }).run();
 
-console.log(echo(args.options);
+console.log(echo(args.options));
