@@ -3,14 +3,15 @@
   "version": "1.0.5",
   "description": "",
   "main": "index.js",
-  "bin":{
-      "zenking":"./bin/zenking"
+  "bin": {
+    "zenking": "./bin/zenking"
   },
   "directories": {
     "doc": "doc"
   },
   "dependencies": {
-    "argv": "^0.0.2"
+    "argv": "^0.0.2",
+    "bars": "github:jstrace/bars"
   },
   "devDependencies": {},
   "scripts": {
